@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Simple form</title>
+    <link rel="stylesheet" href="01-simple-form.css"/>
+</head>
+<body>
+    <form class="my-form" action="#" method="post">
+        <h2>Enter the system</h2>
+        <p>It is necessary to login to Your account in order to sign in for our course.</p>
+        <fieldset class="new-user">
+            <span class="title uppercase title-grey">Are you new? </span><span class="title uppercase title-blue">Register</span>
+            <input class="inputs-left" type="text" placeholder="User name"/>
+            <input class="inputs-left" type="email" placeholder="Email"/>
+            <input class="inputs-left" type="password" placeholder="Password"/>
+            <input class="inputs-left" type="password" placeholder="Confirm password"/>
+            <input type="submit" value="Register" id="left-submit"/>
+        </fieldset>
+
+        <fieldset class="existing-user">
+            <span class="title uppercase title-white">Already a student? Login</span></span>
+            <input class="inputs-right" type="text" placeholder="User name"/>
+            <input class="inputs-right" type="password" placeholder="Password"/>
+            <span class="remember-me">
+                <input type="checkbox" id="remember"/><label for="remember">Remember me</label>
+            </span>
+            <input type="submit" value="Login" id="right-submit"/>
+            <div class="forgot">
+                <a class="forgot-link" href="http://www.manutd.com">Forgot password</a>
+            </div>
+        </fieldset>
+
+    </form>
+</body>
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Fakebook</title>
+    <link rel="stylesheet" href="04-fakebook-form.css"/>
+</head>
+<body>
+    <form action="" method="post">
+        <img class="logo" src="resources/fakebook_logo.png" alt=""/>
+        <h2 class="title">Registration</h2>
+        <p class="subtitle">It is safe and it will always be!</p>
+        <fieldset class="left-fieldset" name="left">
+            <legend>Non-important Information</legend>
+            <input class="input" type="text" placeholder="First name" autofocus="autofocus" tabindex="1"/>
+            <input class="input" type="text" placeholder="Last name" tabindex="2"/>
+            <input class="input" type="email" placeholder="Your email" tabindex="3" pattern="[a-zA-Z-]+@[a-zA-Z-]+\.[a-zA-Z]{2,8}" title="Please, enter valid email address"/>
+            <input class="input" type="tel" placeholder="Phone number" tabindex="4" pattern="\+?\d{6,12}" title="Please, enter valid phone number."/>
+            <input class="input" type="password" placeholder="Your password" tabindex="5"/>
+            <input class="input" type="url" placeholder="Website" tabindex="6"/>
+            <p class="birthday-label">Birthday</p>
+            <input class="birthday-date" type="datetime" tabindex="7"/>
+            <div class="gender">
+                <input type="radio" name="gender" value="fem" id="fem" tabindex="8"/>
+                <label for="fem">Female</label>
+                <input type="radio" name="gender" value="male" id="male" tabindex="9"/>
+                <label for="male">Male</label>
+                <input type="radio" name="gender" value="other" id="other" tabindex="10"/>
+                <label for="other">Other</label>
+            </div>
+        </fieldset>
+        <fieldset class="right-fieldset" name="right">
+            <legend>Important Information *required</legend>
+            <select class="input" name="country" id="country" required tabindex="11">
+                <option value="" disabled selected>Country</option>
+                <option value="">Mozambique</option>
+                <option value="">Kongo</option>
+                <option value="">North Korea</option>
+                <option value="">Tanganaika</option>
+                <option value="" selected>Other</option>
+            </select>
+            <input class="input" type="text" placeholder="Village" required tabindex="12"/>
+            <input class="input" type="text" placeholder="District" required tabindex="13"/>
+            <input class="input" type="text" placeholder="Street" required="" tabindex="14"/>
+            <input class="input input-half" type="text" placeholder="Nr" required tabindex="15"/>
+            <input class="input input-half" type="text" placeholder="Floor" required tabindex="16"/>
+            <input class="input input-half" type="text" placeholder="App Nr" required/>
+            <p class="birthday-label">Door color</p>
+            <input class="input" type="color" required tabindex="17"/>
+            <input class="input" type="text" placeholder="Water meter Nr" required tabindex="18"/>
+            <select class="input" name="country" id="country" required tabindex="19">
+                <option value="" disabled selected>Aunt panties' size</option>
+                <option value="">Sexy</option>
+                <option value="">Largish</option>
+                <option value="">Hugelish</option>
+                <option value="">Enormouslish</option>
+                <option value="">Unspeakablish</option>
+            </select>
+            <p class="birthday-label">More personal information</p>
+            <textarea class="more" name="more" id="more" placeholder="Tells us everything, you ****!" required tabindex="20"></textarea>
+        </fieldset>
+        <input class="left-button" type="reset" name="Clear-Form" id="clear-form" value="Clear Form"/>
+        <input class="right-button" type="submit" name="Register" id="submit" value="Register"/>
+    </form>
+</body>
+</html>

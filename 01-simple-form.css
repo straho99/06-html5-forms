@@ -1,0 +1,120 @@
+body {
+    padding: 30px;
+    background-color: cornsilk;
+    font-family: Verdana, Arial, sans-serif;
+}
+h2 {
+    color: rgb(37,69,100);
+    margin-bottom: 10px;
+}
+p {
+    margin-top: 0;
+    font-size: 12px;
+}
+.my-form {
+    box-sizing: border-box;
+    background-color: rgb(238,238,238);
+    padding: 10px;
+    width: 775px;
+    height: 422px;
+}
+.new-user {
+    box-sizing: border-box;
+    display: inline-block;
+    float: left;
+    width: 370px;
+    height: 320px;
+    margin-left: 10px;
+    padding: 5px;
+    border: none;
+}
+.existing-user {
+    box-sizing: border-box;
+    display: inline-block;
+    float: right;
+    width: 360px;
+    height: 320px;
+    background-color: rgb(37,69,100);
+    padding: 5px;
+    border: none;
+}
+.uppercase {
+    text-transform: uppercase;
+}
+.title {
+    font-size: 18px;
+    font-weight: bold;
+}
+.title-grey {
+    color: grey;
+}
+.title-white {
+    color: white;
+}
+.title-blue {
+    color: rgb(37,69,100);
+}
+.inputs-left {
+    display: block;
+    float: left;
+    width: 350px;
+    height: 40px;
+    font-size: 14px;
+    border: 1px solid darkgrey;
+    margin-top: 10px;
+    padding-left: 5px;
+}
+#left-submit {
+    display: block;
+    float: right;
+    width: 170px;
+    height: 40px;
+    font-size: 14px;
+    color: rgb(37,69,100);
+    border: 2px solid rgb(37,69,100);
+    background-color: rgba(37,69,100, 0);
+    margin-top: 10px;
+}
+.inputs-right {
+    display: block;
+    float: left;
+    width: 330px;
+    height: 40px;
+    font-size: 14px;
+    border: 1px solid darkgrey;
+    margin-top: 10px;
+    padding-left: 5px;
+}
+.remember-me {
+    display: inline-block;
+    float: left;
+    /*border: 1px solid white;*/
+    box-sizing: border-box;
+    color: white;
+    font-size: 12px;
+    margin-top: 10px;
+    margin-right: 64px;
+}
+#right-submit {
+    display: block;
+    float: left;
+    width: 170px;
+    height: 40px;
+    font-size: 14px;
+    color: white;
+    border: 2px solid darkorange;
+    background-color: rgba(37,69,100, 0);
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.forgot-link {
+    font-size: 12px;
+    color: white;
+    display: inline-block;
+    float: right;
+}
+.forgot {
+    /*width: 100%;*/
+    height: 30px;
+    padding-right: 15px;
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Order a flight</title>
+    <link rel="stylesheet" href="02-flight-order.css"/>
+</head>
+<body>
+<form action="#" method="get">
+    <h2>Flight order</h2>
+    <div class="text">From</div>
+    <div class="text">To</div>
+    <select class="input" name="from" id="from-city">
+        <option value="no" selected disabled>Enter a city</option>
+        <option value="sof">Sofia</option>
+        <option value="par">Paris</option>
+        <option value="ny">New York</option>
+        <option value="lon">London</option>
+    </select>
+    <select class="input" name="from" id="from-city">
+        <option value="no" selected disabled>Enter a city</option>
+        <option value="sof">Sofia</option>
+        <option value="par">Paris</option>
+        <option value="ny">New York</option>
+        <option value="lon">London</option>
+    </select>
+    <div class="text empty">Empty</div>
+    <div class="text"><input type="checkbox"/>  Prefer directs</div>
+
+    <div class="text">Departure date</div>
+    <div class="text">Time interval</div>
+    <input class="input" type="date"/>
+    <input class="input input-half" type="time"/>
+    <input class="input input-half" type="time"/>
+
+    <div class="text">Return date</div>
+    <div class="text">Time interval</div>
+    <input class="input" type="date"/>
+    <input class="input input-half" type="time"/>
+    <input class="input input-half" type="time"/>
+
+    <div class="text text-third">12+</div>
+    <div class="text text-third">2 - 12</div>
+    <div class="text text-third">0 - 2</div>
+    <div class="text">Choose class</div>
+    <input class="input input-third" type="number" min="0" max="10"/>
+    <input class="input input-third" type="text"/>
+    <input class="input input-third" type="text"/>
+    <select class="input" name="class" id="class">
+        <option value="eco">Economy</option>
+        <option value="bus">Business</option>
+        <option value="lux">Luxury</option>
+        <option value="vip">VIP the best</option>
+    </select>
+    <div class="text empty">Empty</div>
+    <input class="input button" type="submit" value="Search"/>
+</form>
+</body>
+</html>

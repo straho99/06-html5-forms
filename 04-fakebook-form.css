@@ -1,0 +1,109 @@
+body {
+    background-color: lightgray;
+    margin: 0;
+    padding: 0;
+    padding-top: 30px;
+    font-family: Verdana, Helvetica, sans-serif;
+    color: white;
+}
+form {
+    background-color: rgb(60,90,149);
+    border-radius: 10px;
+    border: 5px solid white;
+    width: 780px;
+    height: 540px;
+    margin: 0 auto;
+    padding-left: 10px;
+}
+.logo {
+    width: 570px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 5px;
+}
+.title {
+    text-align: center;
+    font-size: 120%;
+}
+.subtitle {
+    text-align: center;
+    /*font-size: 120%;*/
+    margin-bottom: 30px;
+}
+.left-fieldset {
+    width: 300px;
+    height: 230px;
+    display: inline-block;
+    box-sizing: border-box;
+    vertical-align: middle;
+    padding-left: 5px;
+    border-radius: 5px;
+}
+.right-fieldset {
+    width: 450px;
+    height: 230px;
+    display: inline-block;
+    box-sizing: border-box;
+    vertical-align: middle;
+    border-radius: 5px;
+}
+.input {
+    border-radius: 3px;
+    padding-left: 3px;
+    border: 1px solid grey;
+    width: 130px;
+    height: 25px;
+    margin-bottom: 5px;
+    box-sizing: border-box;
+}
+.input-half {
+    width: 65px;
+}
+.birthday-label {
+    font-size: 12px;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+.birthday-date {
+    border-radius: 3px;
+    padding-left: 3px;
+    border: 1px solid grey;
+    width: 160px;
+    height: 25px;
+    margin-bottom: 5px;
+}
+.gender {
+    font-size: 12px;
+}
+.more {
+    width: 400px;
+    height: 50px;
+    resize: none;
+    border-radius: 3px;
+    border: 1px solid grey;
+}
+.left-button {
+    width: 302px;
+    height: 40px;
+    box-sizing: border-box;
+    display: inline-block;
+    background-color: lightgrey;
+    border-radius: 5px;
+    font-size: 14px;
+    border: none;
+    margin-right: 5px;
+    color: rgb(60,90,149);
+    margin-top: 15px;
+}
+.right-button {
+    width: 450px;
+    height: 40px;
+    box-sizing: border-box;
+    display: inline-block;
+    background-color: lightgrey;
+    border-radius: 5px;
+    font-size: 14px;
+    border: none;
+    color: rgb(60,90,149);
+    margin-top: 15px;
+}
